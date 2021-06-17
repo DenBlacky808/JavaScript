@@ -8,20 +8,23 @@
 'use strict'
 
 let objBasket = {
-    goods: {
-        'geforce 2080': {
+    goods: [
+        {
+            name:'geforce 2080',
             cnt: 10,
             price:  10000
         },
-        'radeon 960': {
+        {
+            name: 'radeon 960',
             cnt: 5,
             price:  8000
         },
-        'rtx 3090': {
+        {
+            name: 'rtx 3090',
             cnt: 1,
             price:  30000
         }
-    },
+    ],
     countBasketPrice() {
         let result = 0
         for (const key in objBasket.goods) {

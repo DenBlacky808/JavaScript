@@ -8,32 +8,38 @@
 'use strict'
 
 let objCatalog = {
-    graphics: {
-        'geforce 2080': {
+    graphics: [
+        {
+            name: 'geforce 2080',
             cnt: 10,
-            price:  10000
+            price: 10000
         },
-        'radeon 960': {
+        {
+            name: 'radeon 960',
             cnt: 5,
-            price:  8000
+            price: 8000
         },
-        'rtx 3090': {
+        {
+            name: 'rtx 3090',
             cnt: 1,
-            price:  30000
+            price: 30000
         }
-    },
-    cpus: {
-        'CORE i5': {
+    ],
+    cpus: [
+        {
+            name: 'CORE i5',
             cnt: 12,
             price: 9000
         },
-        'CORE i7': {
+        {
+            name: 'CORE i7',
             cnt: 10,
             price: 19000
         },
-        'CORE i9': {
+        {
+            name: 'CORE i9',
             cnt: 6,
             price: 29000
         }
-    }
+    ]
 }
